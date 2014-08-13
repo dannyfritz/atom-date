@@ -1,7 +1,7 @@
 {
   "name": "date",
   "main": "./lib/date.js",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Insert the current date & time. See the readme for format options.",
   "activationEvents": [
     "date:date",
