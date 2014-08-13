@@ -1,0 +1,19 @@
+{
+  "name": "date",
+  "main": "./lib/date.js",
+  "version": "0.0.0",
+  "description": "Insert the current date & time. See the readme for format options.",
+  "activationEvents": [
+    "date:date",
+    "date:time",
+    "date:datetime"
+  ],
+  "repository": "https://github.com/laktak/atom-date",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.100.0"
+  },
+  "dependencies": {
+    "date-utils": "^1.2.16"
+  }
+}

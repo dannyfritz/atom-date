@@ -1,0 +1,14 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Date && Time'
+      'submenu': [
+        { 'label': 'Insert Date', 'command': 'date:date' }
+        { 'label': 'Insert Time', 'command': 'date:time' }
+        { 'label': 'Insert Date && Time', 'command': 'date:datetime' }
+      ]
+    ]
+  }
+]
