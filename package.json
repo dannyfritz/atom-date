@@ -3,11 +3,9 @@
   "main": "./lib/date.js",
   "version": "1.0.0",
   "description": "Insert the current date & time. See the readme for format options.",
-  "activationEvents": [
-    "date:date",
-    "date:time",
-    "date:datetime"
-  ],
+  "activationCommands": {
+    "atom-text-editor": ["date:date", "date:time", "date:datetime"]
+  },
   "repository": "https://github.com/dannyfritz/atom-date",
   "license": "MIT",
   "engines": {
