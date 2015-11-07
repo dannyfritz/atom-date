@@ -1,7 +1,7 @@
 {
   "name": "date",
   "main": "./lib/date.js",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Insert the current date & time. See the readme for format options.",
   "activationCommands": {
     "atom-text-editor": [
