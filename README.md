@@ -7,13 +7,13 @@ Insert the current date & time.
 ```sh
 apm install date
 ```
-or find it in the Packages tab under settings
+or find it in the Packages tab under settings.
 
 ## Usage
 
-Select a command from `Packages`, `Date & Time`.
+Select a command from `Date & Time` in the Command Palette.
 
-You can also bind your keys to `date:date`, `date:time` and `date:datetime`.
+You can also bind your keys to `date:date`, `date:time`, and `date:datetime`.
 
 # Options
 
