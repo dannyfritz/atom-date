@@ -16,6 +16,6 @@
     "atom": ">0.177.0 <2.0.0"
   },
   "dependencies": {
-    "date-utils": "^1.2.16"
+    "date-fns": "^1.28.5"
   }
 }
