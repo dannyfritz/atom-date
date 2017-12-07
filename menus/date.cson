@@ -7,7 +7,7 @@
       'submenu': [
         { 'label': 'Insert Date', 'command': 'date:date' }
         { 'label': 'Insert Time', 'command': 'date:time' }
-        { 'label': 'Insert Date & Time', 'command': 'date:datetime' }
+        { 'label': 'Insert Date && Time', 'command': 'date:datetime' }
       ]
     ]
   }
