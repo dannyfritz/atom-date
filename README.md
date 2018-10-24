@@ -17,7 +17,7 @@ You can also bind your keys to `date:date`, `date:time`, and `date:datetime`.
 
 # Options
 
-Formatting is done using [date-fns](https://date-fns.org/docs/format).
+Formatting is done using [moment](https://momentjs.com/docs/#/displaying/format/).
 
 ## Examples
 
