@@ -3,8 +3,9 @@
   "main": "./lib/date.js",
   "version": "2.7.0",
   "description": "Insert the current date & time. See the readme for format options.",
+  "atomTestRunner": "atom-jasmine3-test-runner",
   "activationCommands": {
-    "atom-text-editor": [
+    "atom-workspace": [
       "date:date",
       "date:time",
       "date:datetime"
@@ -17,5 +18,10 @@
   },
   "dependencies": {
     "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "@types/atom": "^1.40.11",
+    "@types/jasmine": "^3.9.1",
+    "atom-jasmine3-test-runner": "^5.2.8"
   }
 }
