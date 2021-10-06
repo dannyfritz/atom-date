@@ -77,5 +77,14 @@ describe('date', () => {
       await activationPromise;
       expect(textEditor.getText()).not.toEqual('05-02-2021 12:03');
     });
+
+    it('config.locale', async () => {
+      atom.config.set('date.dateFormat', 'MMMM');
+      atom.config.set('date.locale', 'es');
+      const textEditor = atom.workspace.getActiveTextEditor();
+      await atom.commands.dispatch(workspaceElement, 'date:date');
+      await activationPromise;
+      expect(textEditor.getText()).toEqual('febrero');
+    });
   })
 });
