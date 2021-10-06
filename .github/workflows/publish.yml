@@ -16,7 +16,6 @@ jobs:
       run: atom -v
     - name: apm version
       run: apm -v
-    - run: echo '${{ $GITHUB_REF }}'
-    - run: echo `$GITHUB_REF'
+    - run: echo $GITHUB_REF
     - name: Publish
       run: apm publish --tag $GITHUB_REF
