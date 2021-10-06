@@ -1,7 +1,7 @@
 {
   "name": "date",
   "main": "./lib/date.js",
-  "version": "2.7.0",
+  "version": "2.8.0",
   "description": "Insert the current date & time. See the readme for format options.",
   "atomTestRunner": "atom-jasmine3-test-runner",
   "activationCommands": {
